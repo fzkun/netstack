@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-// +build !linux
+//go:build !linux
 
 // Package rand implements a cryptographically secure pseudorandom number
 // generator.
