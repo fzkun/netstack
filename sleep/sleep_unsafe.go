@@ -12,9 +12,6 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-// +build go1.11
-// +build !go1.18
-
 // Check go:linkname function signatures when updating Go version.
 
 // Package sleep allows goroutines to efficiently sleep on multiple sources of
@@ -96,17 +93,17 @@ func gopark(unlockf func(uintptr, *uintptr) bool, wg *uintptr, reason uint8, tra
 func goready(g uintptr, traceskip int)
 
 func commitSleep(g uintptr, waitingG *uintptr) bool {
-        for {
-                // Check if the wait was aborted.
-                if atomic.LoadUintptr(waitingG) == 0 {
-                        return false
-                }
+	for {
+		// Check if the wait was aborted.
+		if atomic.LoadUintptr(waitingG) == 0 {
+			return false
+		}
 
-                // Try to store the G so that wakers know who to wake.
-                if atomic.CompareAndSwapUintptr(waitingG, preparingG, g) {
-                        return true
-                }
-        }
+		// Try to store the G so that wakers know who to wake.
+		if atomic.CompareAndSwapUintptr(waitingG, preparingG, g) {
+			return true
+		}
+	}
 }
 
 // Sleeper allows a goroutine to sleep and receive wake up notifications from
@@ -233,7 +230,8 @@ func (s *Sleeper) nextWaker(block bool) *Waker {
 // the waker; when 'ok' is false, 'id' is undefined.
 //
 // N.B. This method is *not* thread-safe. Only one goroutine at a time is
-//      allowed to call this method.
+//
+//	allowed to call this method.
 func (s *Sleeper) Fetch(block bool) (id int, ok bool) {
 	for {
 		w := s.nextWaker(block)
