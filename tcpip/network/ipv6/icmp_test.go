@@ -19,14 +19,14 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/polevpn/netstack/tcpip"
-	"github.com/polevpn/netstack/tcpip/buffer"
-	"github.com/polevpn/netstack/tcpip/header"
-	"github.com/polevpn/netstack/tcpip/link/channel"
-	"github.com/polevpn/netstack/tcpip/link/sniffer"
-	"github.com/polevpn/netstack/tcpip/stack"
-	"github.com/polevpn/netstack/tcpip/transport/icmp"
-	"github.com/polevpn/netstack/waiter"
+	"e.coding.net/fzkun/zlkj/netstack/tcpip"
+	"e.coding.net/fzkun/zlkj/netstack/tcpip/buffer"
+	"e.coding.net/fzkun/zlkj/netstack/tcpip/header"
+	"e.coding.net/fzkun/zlkj/netstack/tcpip/link/channel"
+	"e.coding.net/fzkun/zlkj/netstack/tcpip/link/sniffer"
+	"e.coding.net/fzkun/zlkj/netstack/tcpip/stack"
+	"e.coding.net/fzkun/zlkj/netstack/tcpip/transport/icmp"
+	"e.coding.net/fzkun/zlkj/netstack/waiter"
 )
 
 const (

@@ -21,10 +21,10 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/polevpn/netstack/tcpip"
-	"github.com/polevpn/netstack/tcpip/buffer"
-	"github.com/polevpn/netstack/tcpip/header"
-	"github.com/polevpn/netstack/tcpip/seqnum"
+	"e.coding.net/fzkun/zlkj/netstack/tcpip"
+	"e.coding.net/fzkun/zlkj/netstack/tcpip/buffer"
+	"e.coding.net/fzkun/zlkj/netstack/tcpip/header"
+	"e.coding.net/fzkun/zlkj/netstack/tcpip/seqnum"
 )
 
 // NetworkChecker is a function to check a property of a network packet.

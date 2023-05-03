@@ -19,7 +19,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/polevpn/netstack/tcpip/buffer"
+	"e.coding.net/fzkun/zlkj/netstack/tcpip/buffer"
 )
 
 var reassambleTestCases = []struct {

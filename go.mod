@@ -1,6 +1,6 @@
-module github.com/polevpn/netstack
+module e.coding.net/fzkun/zlkj/netstack
 
-go 1.14
+go 1.20
 
 require (
 	github.com/google/btree v1.0.0

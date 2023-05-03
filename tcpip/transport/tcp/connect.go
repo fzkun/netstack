@@ -19,15 +19,15 @@ import (
 	"sync"
 	"time"
 
-	"github.com/polevpn/netstack/rand"
-	"github.com/polevpn/netstack/sleep"
-	"github.com/polevpn/netstack/tcpip"
-	"github.com/polevpn/netstack/tcpip/buffer"
-	"github.com/polevpn/netstack/tcpip/hash/jenkins"
-	"github.com/polevpn/netstack/tcpip/header"
-	"github.com/polevpn/netstack/tcpip/seqnum"
-	"github.com/polevpn/netstack/tcpip/stack"
-	"github.com/polevpn/netstack/waiter"
+	"e.coding.net/fzkun/zlkj/netstack/rand"
+	"e.coding.net/fzkun/zlkj/netstack/sleep"
+	"e.coding.net/fzkun/zlkj/netstack/tcpip"
+	"e.coding.net/fzkun/zlkj/netstack/tcpip/buffer"
+	"e.coding.net/fzkun/zlkj/netstack/tcpip/hash/jenkins"
+	"e.coding.net/fzkun/zlkj/netstack/tcpip/header"
+	"e.coding.net/fzkun/zlkj/netstack/tcpip/seqnum"
+	"e.coding.net/fzkun/zlkj/netstack/tcpip/stack"
+	"e.coding.net/fzkun/zlkj/netstack/waiter"
 )
 
 // maxSegmentsPerWake is the maximum number of segments to process in the main

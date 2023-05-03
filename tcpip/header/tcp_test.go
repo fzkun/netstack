@@ -18,7 +18,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/polevpn/netstack/tcpip/header"
+	"e.coding.net/fzkun/zlkj/netstack/tcpip/header"
 )
 
 func TestEncodeSACKBlocks(t *testing.T) {

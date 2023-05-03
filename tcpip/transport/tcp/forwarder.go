@@ -17,11 +17,11 @@ package tcp
 import (
 	"sync"
 
-	"github.com/polevpn/netstack/tcpip"
-	"github.com/polevpn/netstack/tcpip/header"
-	"github.com/polevpn/netstack/tcpip/seqnum"
-	"github.com/polevpn/netstack/tcpip/stack"
-	"github.com/polevpn/netstack/waiter"
+	"e.coding.net/fzkun/zlkj/netstack/tcpip"
+	"e.coding.net/fzkun/zlkj/netstack/tcpip/header"
+	"e.coding.net/fzkun/zlkj/netstack/tcpip/seqnum"
+	"e.coding.net/fzkun/zlkj/netstack/tcpip/stack"
+	"e.coding.net/fzkun/zlkj/netstack/waiter"
 )
 
 // Forwarder is a connection request forwarder, which allows clients to decide

@@ -21,8 +21,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/polevpn/netstack/sleep"
-	"github.com/polevpn/netstack/tcpip"
+	"e.coding.net/fzkun/zlkj/netstack/sleep"
+	"e.coding.net/fzkun/zlkj/netstack/tcpip"
 )
 
 type testaddr struct {

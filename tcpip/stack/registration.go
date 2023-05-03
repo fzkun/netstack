@@ -15,10 +15,10 @@
 package stack
 
 import (
-	"github.com/polevpn/netstack/sleep"
-	"github.com/polevpn/netstack/tcpip"
-	"github.com/polevpn/netstack/tcpip/buffer"
-	"github.com/polevpn/netstack/waiter"
+	"e.coding.net/fzkun/zlkj/netstack/sleep"
+	"e.coding.net/fzkun/zlkj/netstack/tcpip"
+	"e.coding.net/fzkun/zlkj/netstack/tcpip/buffer"
+	"e.coding.net/fzkun/zlkj/netstack/waiter"
 )
 
 // NetworkEndpointID is the identifier of a network layer protocol endpoint.

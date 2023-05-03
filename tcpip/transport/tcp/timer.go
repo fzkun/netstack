@@ -17,7 +17,7 @@ package tcp
 import (
 	"time"
 
-	"github.com/polevpn/netstack/sleep"
+	"e.coding.net/fzkun/zlkj/netstack/sleep"
 )
 
 type timerState int

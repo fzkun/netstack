@@ -18,9 +18,9 @@ import (
 	"fmt"
 	"strings"
 
+	"e.coding.net/fzkun/zlkj/netstack/tcpip/header"
+	"e.coding.net/fzkun/zlkj/netstack/tcpip/seqnum"
 	"github.com/google/btree"
-	"github.com/polevpn/netstack/tcpip/header"
-	"github.com/polevpn/netstack/tcpip/seqnum"
 )
 
 const (

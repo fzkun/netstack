@@ -17,13 +17,13 @@ package stack_test
 import (
 	"testing"
 
-	"github.com/polevpn/netstack/tcpip"
-	"github.com/polevpn/netstack/tcpip/buffer"
-	"github.com/polevpn/netstack/tcpip/iptables"
-	"github.com/polevpn/netstack/tcpip/link/channel"
-	"github.com/polevpn/netstack/tcpip/link/loopback"
-	"github.com/polevpn/netstack/tcpip/stack"
-	"github.com/polevpn/netstack/waiter"
+	"e.coding.net/fzkun/zlkj/netstack/tcpip"
+	"e.coding.net/fzkun/zlkj/netstack/tcpip/buffer"
+	"e.coding.net/fzkun/zlkj/netstack/tcpip/iptables"
+	"e.coding.net/fzkun/zlkj/netstack/tcpip/link/channel"
+	"e.coding.net/fzkun/zlkj/netstack/tcpip/link/loopback"
+	"e.coding.net/fzkun/zlkj/netstack/tcpip/stack"
+	"e.coding.net/fzkun/zlkj/netstack/waiter"
 )
 
 const (

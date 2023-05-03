@@ -21,13 +21,13 @@ import (
 	"testing"
 	"time"
 
-	"github.com/polevpn/netstack/tcpip"
-	"github.com/polevpn/netstack/tcpip/buffer"
-	"github.com/polevpn/netstack/tcpip/header"
-	"github.com/polevpn/netstack/tcpip/seqnum"
-	"github.com/polevpn/netstack/tcpip/stack"
-	"github.com/polevpn/netstack/tcpip/transport/tcp"
-	"github.com/polevpn/netstack/tcpip/transport/tcp/testing/context"
+	"e.coding.net/fzkun/zlkj/netstack/tcpip"
+	"e.coding.net/fzkun/zlkj/netstack/tcpip/buffer"
+	"e.coding.net/fzkun/zlkj/netstack/tcpip/header"
+	"e.coding.net/fzkun/zlkj/netstack/tcpip/seqnum"
+	"e.coding.net/fzkun/zlkj/netstack/tcpip/stack"
+	"e.coding.net/fzkun/zlkj/netstack/tcpip/transport/tcp"
+	"e.coding.net/fzkun/zlkj/netstack/tcpip/transport/tcp/testing/context"
 )
 
 // createConnectedWithSACKPermittedOption creates and connects c.ep with the

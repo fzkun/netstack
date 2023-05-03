@@ -16,6 +16,7 @@
 // iterations taking long enough that the retransmit timer can kick in causing
 // the congestion window measurements to fail due to extra packets etc.
 //
+//go:build !race
 // +build !race
 
 package tcp_test
@@ -26,11 +27,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/polevpn/netstack/tcpip"
-	"github.com/polevpn/netstack/tcpip/buffer"
-	"github.com/polevpn/netstack/tcpip/header"
-	"github.com/polevpn/netstack/tcpip/transport/tcp"
-	"github.com/polevpn/netstack/tcpip/transport/tcp/testing/context"
+	"e.coding.net/fzkun/zlkj/netstack/tcpip"
+	"e.coding.net/fzkun/zlkj/netstack/tcpip/buffer"
+	"e.coding.net/fzkun/zlkj/netstack/tcpip/header"
+	"e.coding.net/fzkun/zlkj/netstack/tcpip/transport/tcp"
+	"e.coding.net/fzkun/zlkj/netstack/tcpip/transport/tcp/testing/context"
 )
 
 func DisabledTestFastRecovery(t *testing.T) {

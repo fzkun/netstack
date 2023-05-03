@@ -18,8 +18,8 @@
 package tcpconntrack
 
 import (
-	"github.com/polevpn/netstack/tcpip/header"
-	"github.com/polevpn/netstack/tcpip/seqnum"
+	"e.coding.net/fzkun/zlkj/netstack/tcpip/header"
+	"e.coding.net/fzkun/zlkj/netstack/tcpip/seqnum"
 )
 
 // Result is returned when the state of a TCB is updated in response to an

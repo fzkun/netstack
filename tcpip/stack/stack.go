@@ -25,15 +25,15 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/polevpn/netstack/rand"
-	"github.com/polevpn/netstack/sleep"
-	"github.com/polevpn/netstack/tcpip"
-	"github.com/polevpn/netstack/tcpip/buffer"
-	"github.com/polevpn/netstack/tcpip/header"
-	"github.com/polevpn/netstack/tcpip/iptables"
-	"github.com/polevpn/netstack/tcpip/ports"
-	"github.com/polevpn/netstack/tcpip/seqnum"
-	"github.com/polevpn/netstack/waiter"
+	"e.coding.net/fzkun/zlkj/netstack/rand"
+	"e.coding.net/fzkun/zlkj/netstack/sleep"
+	"e.coding.net/fzkun/zlkj/netstack/tcpip"
+	"e.coding.net/fzkun/zlkj/netstack/tcpip/buffer"
+	"e.coding.net/fzkun/zlkj/netstack/tcpip/header"
+	"e.coding.net/fzkun/zlkj/netstack/tcpip/iptables"
+	"e.coding.net/fzkun/zlkj/netstack/tcpip/ports"
+	"e.coding.net/fzkun/zlkj/netstack/tcpip/seqnum"
+	"e.coding.net/fzkun/zlkj/netstack/waiter"
 	"golang.org/x/time/rate"
 )
 
@@ -598,9 +598,10 @@ func (s *Stack) SetNetworkProtocolOption(network tcpip.NetworkProtocolNumber, op
 // e.g.
 // var v ipv4.MyOption
 // err := s.NetworkProtocolOption(tcpip.IPv4ProtocolNumber, &v)
-// if err != nil {
-//   ...
-// }
+//
+//	if err != nil {
+//	  ...
+//	}
 func (s *Stack) NetworkProtocolOption(network tcpip.NetworkProtocolNumber, option interface{}) *tcpip.Error {
 	netProto, ok := s.networkProtocols[network]
 	if !ok {
@@ -625,9 +626,10 @@ func (s *Stack) SetTransportProtocolOption(transport tcpip.TransportProtocolNumb
 // values. This method returns an error if the protocol is not supported or
 // option is not supported by the protocol implementation.
 // var v tcp.SACKEnabled
-// if err := s.TransportProtocolOption(tcpip.TCPProtocolNumber, &v); err != nil {
-//   ...
-// }
+//
+//	if err := s.TransportProtocolOption(tcpip.TCPProtocolNumber, &v); err != nil {
+//	  ...
+//	}
 func (s *Stack) TransportProtocolOption(transport tcpip.TransportProtocolNumber, option interface{}) *tcpip.Error {
 	transProtoState, ok := s.transportProtocols[transport]
 	if !ok {

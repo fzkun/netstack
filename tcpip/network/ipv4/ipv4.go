@@ -23,12 +23,12 @@ package ipv4
 import (
 	"sync/atomic"
 
-	"github.com/polevpn/netstack/tcpip"
-	"github.com/polevpn/netstack/tcpip/buffer"
-	"github.com/polevpn/netstack/tcpip/header"
-	"github.com/polevpn/netstack/tcpip/network/fragmentation"
-	"github.com/polevpn/netstack/tcpip/network/hash"
-	"github.com/polevpn/netstack/tcpip/stack"
+	"e.coding.net/fzkun/zlkj/netstack/tcpip"
+	"e.coding.net/fzkun/zlkj/netstack/tcpip/buffer"
+	"e.coding.net/fzkun/zlkj/netstack/tcpip/header"
+	"e.coding.net/fzkun/zlkj/netstack/tcpip/network/fragmentation"
+	"e.coding.net/fzkun/zlkj/netstack/tcpip/network/hash"
+	"e.coding.net/fzkun/zlkj/netstack/tcpip/stack"
 )
 
 const (

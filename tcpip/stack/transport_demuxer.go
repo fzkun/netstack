@@ -20,9 +20,9 @@ import (
 	"sort"
 	"sync"
 
-	"github.com/polevpn/netstack/tcpip"
-	"github.com/polevpn/netstack/tcpip/hash/jenkins"
-	"github.com/polevpn/netstack/tcpip/header"
+	"e.coding.net/fzkun/zlkj/netstack/tcpip"
+	"e.coding.net/fzkun/zlkj/netstack/tcpip/hash/jenkins"
+	"e.coding.net/fzkun/zlkj/netstack/tcpip/header"
 )
 
 type protocolIDs struct {

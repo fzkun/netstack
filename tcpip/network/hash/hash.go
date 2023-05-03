@@ -18,8 +18,8 @@ package hash
 import (
 	"encoding/binary"
 
-	"github.com/polevpn/netstack/rand"
-	"github.com/polevpn/netstack/tcpip/header"
+	"e.coding.net/fzkun/zlkj/netstack/rand"
+	"e.coding.net/fzkun/zlkj/netstack/tcpip/header"
 )
 
 var hashIV = RandN32(1)[0]

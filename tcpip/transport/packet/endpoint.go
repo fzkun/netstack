@@ -15,8 +15,8 @@
 // Package packet provides the implementation of packet sockets (see
 // packet(7)). Packet sockets allow applications to:
 //
-//   * manually write and inspect link, network, and transport headers
-//   * receive all traffic of a given network protocol, or all protocols
+//   - manually write and inspect link, network, and transport headers
+//   - receive all traffic of a given network protocol, or all protocols
 //
 // Packet sockets are similar to raw sockets, but provide even more power to
 // users, letting them effectively talk directly to the network device.
@@ -27,12 +27,12 @@ package packet
 import (
 	"sync"
 
-	"github.com/polevpn/netstack/tcpip"
-	"github.com/polevpn/netstack/tcpip/buffer"
-	"github.com/polevpn/netstack/tcpip/header"
-	"github.com/polevpn/netstack/tcpip/iptables"
-	"github.com/polevpn/netstack/tcpip/stack"
-	"github.com/polevpn/netstack/waiter"
+	"e.coding.net/fzkun/zlkj/netstack/tcpip"
+	"e.coding.net/fzkun/zlkj/netstack/tcpip/buffer"
+	"e.coding.net/fzkun/zlkj/netstack/tcpip/header"
+	"e.coding.net/fzkun/zlkj/netstack/tcpip/iptables"
+	"e.coding.net/fzkun/zlkj/netstack/tcpip/stack"
+	"e.coding.net/fzkun/zlkj/netstack/waiter"
 )
 
 // +stateify savable
@@ -51,8 +51,9 @@ type packet struct {
 // to have goroutines make concurrent calls into the endpoint.
 //
 // Lock order:
-//   endpoint.mu
-//     endpoint.rcvMu
+//
+//	endpoint.mu
+//	  endpoint.rcvMu
 //
 // +stateify savable
 type endpoint struct {

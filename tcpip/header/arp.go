@@ -14,7 +14,7 @@
 
 package header
 
-import "github.com/polevpn/netstack/tcpip"
+import "e.coding.net/fzkun/zlkj/netstack/tcpip"
 
 const (
 	// ARPProtocolNumber is the ARP network protocol number.

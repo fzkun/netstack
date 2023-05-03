@@ -17,9 +17,9 @@ package header
 import (
 	"encoding/binary"
 
+	"e.coding.net/fzkun/zlkj/netstack/tcpip"
+	"e.coding.net/fzkun/zlkj/netstack/tcpip/seqnum"
 	"github.com/google/btree"
-	"github.com/polevpn/netstack/tcpip"
-	"github.com/polevpn/netstack/tcpip/seqnum"
 )
 
 // These constants are the offsets of the respective fields in the TCP header.

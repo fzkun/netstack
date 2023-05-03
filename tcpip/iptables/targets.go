@@ -16,7 +16,7 @@
 
 package iptables
 
-import "github.com/polevpn/netstack/tcpip/buffer"
+import "e.coding.net/fzkun/zlkj/netstack/tcpip/buffer"
 
 // UnconditionalAcceptTarget accepts all packets.
 type UnconditionalAcceptTarget struct{}

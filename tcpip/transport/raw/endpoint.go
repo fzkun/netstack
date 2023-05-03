@@ -15,9 +15,9 @@
 // Package raw provides the implementation of raw sockets (see raw(7)). Raw
 // sockets allow applications to:
 //
-//   * manually write and inspect transport layer headers and payloads
-//   * receive all traffic of a given transport protocol (e.g. ICMP or UDP)
-//   * optionally write and inspect network layer headers of packets
+//   - manually write and inspect transport layer headers and payloads
+//   - receive all traffic of a given transport protocol (e.g. ICMP or UDP)
+//   - optionally write and inspect network layer headers of packets
 //
 // Raw sockets don't have any notion of ports, and incoming packets are
 // demultiplexed solely by protocol number. Thus, a raw UDP endpoint will
@@ -28,12 +28,12 @@ package raw
 import (
 	"sync"
 
-	"github.com/polevpn/netstack/tcpip"
-	"github.com/polevpn/netstack/tcpip/buffer"
-	"github.com/polevpn/netstack/tcpip/header"
-	"github.com/polevpn/netstack/tcpip/iptables"
-	"github.com/polevpn/netstack/tcpip/stack"
-	"github.com/polevpn/netstack/waiter"
+	"e.coding.net/fzkun/zlkj/netstack/tcpip"
+	"e.coding.net/fzkun/zlkj/netstack/tcpip/buffer"
+	"e.coding.net/fzkun/zlkj/netstack/tcpip/header"
+	"e.coding.net/fzkun/zlkj/netstack/tcpip/iptables"
+	"e.coding.net/fzkun/zlkj/netstack/tcpip/stack"
+	"e.coding.net/fzkun/zlkj/netstack/waiter"
 )
 
 // +stateify savable
@@ -52,8 +52,9 @@ type rawPacket struct {
 // have goroutines make concurrent calls into the endpoint.
 //
 // Lock order:
-//   endpoint.mu
-//     endpoint.rcvMu
+//
+//	endpoint.mu
+//	  endpoint.rcvMu
 //
 // +stateify savable
 type endpoint struct {

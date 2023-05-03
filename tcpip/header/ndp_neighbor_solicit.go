@@ -14,7 +14,7 @@
 
 package header
 
-import "github.com/polevpn/netstack/tcpip"
+import "e.coding.net/fzkun/zlkj/netstack/tcpip"
 
 // NDPNeighborSolicit is an NDP Neighbor Solicitation message. It will only
 // contain the body of an ICMPv6 packet.

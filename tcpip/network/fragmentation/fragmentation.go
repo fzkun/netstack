@@ -22,7 +22,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/polevpn/netstack/tcpip/buffer"
+	"e.coding.net/fzkun/zlkj/netstack/tcpip/buffer"
 )
 
 // DefaultReassembleTimeout is based on the linux stack: net.ipv4.ipfrag_time.
