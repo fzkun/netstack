@@ -19,7 +19,7 @@ import (
 	"reflect"
 	"testing"
 
-	"e.coding.net/fzkun/zlkj/netstack/tcpip/buffer"
+	"github.com/fzkun/netstack/tcpip/buffer"
 )
 
 var reassambleTestCases = []struct {

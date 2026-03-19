@@ -27,11 +27,11 @@ import (
 	"testing"
 	"time"
 
-	"e.coding.net/fzkun/zlkj/netstack/tcpip"
-	"e.coding.net/fzkun/zlkj/netstack/tcpip/buffer"
-	"e.coding.net/fzkun/zlkj/netstack/tcpip/header"
-	"e.coding.net/fzkun/zlkj/netstack/tcpip/transport/tcp"
-	"e.coding.net/fzkun/zlkj/netstack/tcpip/transport/tcp/testing/context"
+	"github.com/fzkun/netstack/tcpip"
+	"github.com/fzkun/netstack/tcpip/buffer"
+	"github.com/fzkun/netstack/tcpip/header"
+	"github.com/fzkun/netstack/tcpip/transport/tcp"
+	"github.com/fzkun/netstack/tcpip/transport/tcp/testing/context"
 )
 
 func DisabledTestFastRecovery(t *testing.T) {

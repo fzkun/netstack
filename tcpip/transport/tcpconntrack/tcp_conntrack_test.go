@@ -17,8 +17,8 @@ package tcpconntrack_test
 import (
 	"testing"
 
-	"e.coding.net/fzkun/zlkj/netstack/tcpip/header"
-	"e.coding.net/fzkun/zlkj/netstack/tcpip/transport/tcpconntrack"
+	"github.com/fzkun/netstack/tcpip/header"
+	"github.com/fzkun/netstack/tcpip/transport/tcpconntrack"
 )
 
 // connected creates a connection tracker TCB and sets it to a connected state

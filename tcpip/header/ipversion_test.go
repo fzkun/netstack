@@ -17,7 +17,7 @@ package header_test
 import (
 	"testing"
 
-	"e.coding.net/fzkun/zlkj/netstack/tcpip/header"
+	"github.com/fzkun/netstack/tcpip/header"
 )
 
 func TestIPv4(t *testing.T) {

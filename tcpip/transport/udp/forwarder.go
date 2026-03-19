@@ -15,9 +15,9 @@
 package udp
 
 import (
-	"e.coding.net/fzkun/zlkj/netstack/tcpip"
-	"e.coding.net/fzkun/zlkj/netstack/tcpip/stack"
-	"e.coding.net/fzkun/zlkj/netstack/waiter"
+	"github.com/fzkun/netstack/tcpip"
+	"github.com/fzkun/netstack/tcpip/stack"
+	"github.com/fzkun/netstack/waiter"
 )
 
 // Forwarder is a session request forwarder, which allows clients to decide

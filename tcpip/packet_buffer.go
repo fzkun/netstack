@@ -13,7 +13,7 @@
 
 package tcpip
 
-import "e.coding.net/fzkun/zlkj/netstack/tcpip/buffer"
+import "github.com/fzkun/netstack/tcpip/buffer"
 
 // A PacketBuffer contains all the data of a network packet.
 //

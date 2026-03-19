@@ -18,11 +18,11 @@ import (
 	"sync/atomic"
 	"time"
 
-	"e.coding.net/fzkun/zlkj/netstack/tcpip"
-	"e.coding.net/fzkun/zlkj/netstack/tcpip/buffer"
-	"e.coding.net/fzkun/zlkj/netstack/tcpip/header"
-	"e.coding.net/fzkun/zlkj/netstack/tcpip/seqnum"
-	"e.coding.net/fzkun/zlkj/netstack/tcpip/stack"
+	"github.com/fzkun/netstack/tcpip"
+	"github.com/fzkun/netstack/tcpip/buffer"
+	"github.com/fzkun/netstack/tcpip/header"
+	"github.com/fzkun/netstack/tcpip/seqnum"
+	"github.com/fzkun/netstack/tcpip/stack"
 )
 
 // segment represents a TCP segment. It holds the payload and parsed TCP segment

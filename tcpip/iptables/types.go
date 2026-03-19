@@ -15,7 +15,7 @@
 package iptables
 
 import (
-	"e.coding.net/fzkun/zlkj/netstack/tcpip/buffer"
+	"github.com/fzkun/netstack/tcpip/buffer"
 )
 
 // A Hook specifies one of the hooks built into the network stack.

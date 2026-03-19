@@ -19,9 +19,9 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"e.coding.net/fzkun/zlkj/netstack/tcpip"
-	"e.coding.net/fzkun/zlkj/netstack/tcpip/buffer"
-	"e.coding.net/fzkun/zlkj/netstack/tcpip/header"
+	"github.com/fzkun/netstack/tcpip"
+	"github.com/fzkun/netstack/tcpip/buffer"
+	"github.com/fzkun/netstack/tcpip/header"
 )
 
 // NIC represents a "network interface card" to which the networking stack is

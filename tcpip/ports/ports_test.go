@@ -18,7 +18,7 @@ import (
 	"math/rand"
 	"testing"
 
-	"e.coding.net/fzkun/zlkj/netstack/tcpip"
+	"github.com/fzkun/netstack/tcpip"
 )
 
 const (

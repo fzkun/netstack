@@ -15,10 +15,10 @@
 package stack
 
 import (
-	"e.coding.net/fzkun/zlkj/netstack/sleep"
-	"e.coding.net/fzkun/zlkj/netstack/tcpip"
-	"e.coding.net/fzkun/zlkj/netstack/tcpip/buffer"
-	"e.coding.net/fzkun/zlkj/netstack/tcpip/header"
+	"github.com/fzkun/netstack/sleep"
+	"github.com/fzkun/netstack/tcpip"
+	"github.com/fzkun/netstack/tcpip/buffer"
+	"github.com/fzkun/netstack/tcpip/header"
 )
 
 // Route represents a route through the networking stack to a given destination.

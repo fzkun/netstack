@@ -31,10 +31,10 @@ import (
 
 	"log"
 
-	"e.coding.net/fzkun/zlkj/netstack/tcpip"
-	"e.coding.net/fzkun/zlkj/netstack/tcpip/buffer"
-	"e.coding.net/fzkun/zlkj/netstack/tcpip/header"
-	"e.coding.net/fzkun/zlkj/netstack/tcpip/stack"
+	"github.com/fzkun/netstack/tcpip"
+	"github.com/fzkun/netstack/tcpip/buffer"
+	"github.com/fzkun/netstack/tcpip/header"
+	"github.com/fzkun/netstack/tcpip/stack"
 )
 
 // LogPackets is a flag used to enable or disable packet logging via the log

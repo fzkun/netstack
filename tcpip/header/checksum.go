@@ -19,8 +19,8 @@ package header
 import (
 	"encoding/binary"
 
-	"e.coding.net/fzkun/zlkj/netstack/tcpip"
-	"e.coding.net/fzkun/zlkj/netstack/tcpip/buffer"
+	"github.com/fzkun/netstack/tcpip"
+	"github.com/fzkun/netstack/tcpip/buffer"
 )
 
 func calculateChecksum(buf []byte, odd bool, initial uint32) (uint16, bool) {

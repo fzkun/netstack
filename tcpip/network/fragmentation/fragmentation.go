@@ -22,7 +22,7 @@ import (
 	"sync"
 	"time"
 
-	"e.coding.net/fzkun/zlkj/netstack/tcpip/buffer"
+	"github.com/fzkun/netstack/tcpip/buffer"
 )
 
 // DefaultReassembleTimeout is based on the linux stack: net.ipv4.ipfrag_time.

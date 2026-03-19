@@ -17,12 +17,12 @@ package icmp
 import (
 	"sync"
 
-	"e.coding.net/fzkun/zlkj/netstack/tcpip"
-	"e.coding.net/fzkun/zlkj/netstack/tcpip/buffer"
-	"e.coding.net/fzkun/zlkj/netstack/tcpip/header"
-	"e.coding.net/fzkun/zlkj/netstack/tcpip/iptables"
-	"e.coding.net/fzkun/zlkj/netstack/tcpip/stack"
-	"e.coding.net/fzkun/zlkj/netstack/waiter"
+	"github.com/fzkun/netstack/tcpip"
+	"github.com/fzkun/netstack/tcpip/buffer"
+	"github.com/fzkun/netstack/tcpip/header"
+	"github.com/fzkun/netstack/tcpip/iptables"
+	"github.com/fzkun/netstack/tcpip/stack"
+	"github.com/fzkun/netstack/waiter"
 )
 
 // +stateify savable

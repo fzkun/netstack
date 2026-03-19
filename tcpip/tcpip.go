@@ -39,9 +39,9 @@ import (
 	"sync/atomic"
 	"time"
 
-	"e.coding.net/fzkun/zlkj/netstack/tcpip/buffer"
-	"e.coding.net/fzkun/zlkj/netstack/tcpip/iptables"
-	"e.coding.net/fzkun/zlkj/netstack/waiter"
+	"github.com/fzkun/netstack/tcpip/buffer"
+	"github.com/fzkun/netstack/tcpip/iptables"
+	"github.com/fzkun/netstack/waiter"
 )
 
 // Error represents an error in the netstack error space. Using a special type

@@ -19,8 +19,8 @@ package header_test
 import (
 	"testing"
 
-	"e.coding.net/fzkun/zlkj/netstack/tcpip/buffer"
-	"e.coding.net/fzkun/zlkj/netstack/tcpip/header"
+	"github.com/fzkun/netstack/tcpip/buffer"
+	"github.com/fzkun/netstack/tcpip/header"
 )
 
 func TestChecksumVVWithOffset(t *testing.T) {

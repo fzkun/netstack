@@ -17,9 +17,9 @@ package tcp_test
 import (
 	"testing"
 
-	"e.coding.net/fzkun/zlkj/netstack/tcpip/header"
-	"e.coding.net/fzkun/zlkj/netstack/tcpip/seqnum"
-	"e.coding.net/fzkun/zlkj/netstack/tcpip/transport/tcp"
+	"github.com/fzkun/netstack/tcpip/header"
+	"github.com/fzkun/netstack/tcpip/seqnum"
+	"github.com/fzkun/netstack/tcpip/transport/tcp"
 )
 
 const smss = 1500

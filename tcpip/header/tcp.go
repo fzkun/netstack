@@ -17,8 +17,8 @@ package header
 import (
 	"encoding/binary"
 
-	"e.coding.net/fzkun/zlkj/netstack/tcpip"
-	"e.coding.net/fzkun/zlkj/netstack/tcpip/seqnum"
+	"github.com/fzkun/netstack/tcpip"
+	"github.com/fzkun/netstack/tcpip/seqnum"
 	"github.com/google/btree"
 )
 

@@ -19,8 +19,8 @@ import (
 	"sync"
 	"time"
 
-	"e.coding.net/fzkun/zlkj/netstack/sleep"
-	"e.coding.net/fzkun/zlkj/netstack/tcpip"
+	"github.com/fzkun/netstack/sleep"
+	"github.com/fzkun/netstack/tcpip"
 )
 
 const linkAddrCacheSize = 512 // max cache entries

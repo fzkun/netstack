@@ -19,7 +19,7 @@ import (
 	"errors"
 	"time"
 
-	"e.coding.net/fzkun/zlkj/netstack/tcpip"
+	"github.com/fzkun/netstack/tcpip"
 )
 
 const (

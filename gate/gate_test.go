@@ -19,7 +19,7 @@ import (
 	"testing"
 	"time"
 
-	"e.coding.net/fzkun/zlkj/netstack/gate"
+	"github.com/fzkun/netstack/gate"
 )
 
 func TestBasicEnter(t *testing.T) {

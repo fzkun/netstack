@@ -17,8 +17,8 @@ package header
 import (
 	"encoding/binary"
 
-	"e.coding.net/fzkun/zlkj/netstack/tcpip"
-	"e.coding.net/fzkun/zlkj/netstack/tcpip/buffer"
+	"github.com/fzkun/netstack/tcpip"
+	"github.com/fzkun/netstack/tcpip/buffer"
 )
 
 // ICMPv6 represents an ICMPv6 header stored in a byte array.

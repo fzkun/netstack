@@ -19,7 +19,7 @@ import (
 	"testing"
 	"time"
 
-	"e.coding.net/fzkun/zlkj/netstack/tcpip/buffer"
+	"github.com/fzkun/netstack/tcpip/buffer"
 )
 
 // vv is a helper to build VectorisedView from different strings.

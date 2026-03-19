@@ -18,7 +18,7 @@ import (
 	"container/heap"
 	"fmt"
 
-	"e.coding.net/fzkun/zlkj/netstack/tcpip/buffer"
+	"github.com/fzkun/netstack/tcpip/buffer"
 )
 
 type fragment struct {

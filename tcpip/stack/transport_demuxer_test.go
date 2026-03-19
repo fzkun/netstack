@@ -19,15 +19,15 @@ import (
 	"math/rand"
 	"testing"
 
-	"e.coding.net/fzkun/zlkj/netstack/tcpip"
-	"e.coding.net/fzkun/zlkj/netstack/tcpip/buffer"
-	"e.coding.net/fzkun/zlkj/netstack/tcpip/header"
-	"e.coding.net/fzkun/zlkj/netstack/tcpip/link/channel"
-	"e.coding.net/fzkun/zlkj/netstack/tcpip/network/ipv4"
-	"e.coding.net/fzkun/zlkj/netstack/tcpip/network/ipv6"
-	"e.coding.net/fzkun/zlkj/netstack/tcpip/stack"
-	"e.coding.net/fzkun/zlkj/netstack/tcpip/transport/udp"
-	"e.coding.net/fzkun/zlkj/netstack/waiter"
+	"github.com/fzkun/netstack/tcpip"
+	"github.com/fzkun/netstack/tcpip/buffer"
+	"github.com/fzkun/netstack/tcpip/header"
+	"github.com/fzkun/netstack/tcpip/link/channel"
+	"github.com/fzkun/netstack/tcpip/network/ipv4"
+	"github.com/fzkun/netstack/tcpip/network/ipv6"
+	"github.com/fzkun/netstack/tcpip/stack"
+	"github.com/fzkun/netstack/tcpip/transport/udp"
+	"github.com/fzkun/netstack/waiter"
 )
 
 const (

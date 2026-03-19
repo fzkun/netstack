@@ -19,7 +19,7 @@ import (
 	"testing"
 	"time"
 
-	"e.coding.net/fzkun/zlkj/netstack/tcpip"
+	"github.com/fzkun/netstack/tcpip"
 )
 
 // TestNDPNeighborSolicit tests the functions of NDPNeighborSolicit.

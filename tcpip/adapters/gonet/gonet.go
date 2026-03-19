@@ -23,12 +23,12 @@ import (
 	"sync"
 	"time"
 
-	"e.coding.net/fzkun/zlkj/netstack/tcpip"
-	"e.coding.net/fzkun/zlkj/netstack/tcpip/buffer"
-	"e.coding.net/fzkun/zlkj/netstack/tcpip/stack"
-	"e.coding.net/fzkun/zlkj/netstack/tcpip/transport/tcp"
-	"e.coding.net/fzkun/zlkj/netstack/tcpip/transport/udp"
-	"e.coding.net/fzkun/zlkj/netstack/waiter"
+	"github.com/fzkun/netstack/tcpip"
+	"github.com/fzkun/netstack/tcpip/buffer"
+	"github.com/fzkun/netstack/tcpip/stack"
+	"github.com/fzkun/netstack/tcpip/transport/tcp"
+	"github.com/fzkun/netstack/tcpip/transport/udp"
+	"github.com/fzkun/netstack/waiter"
 )
 
 var (

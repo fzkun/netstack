@@ -22,10 +22,10 @@
 package waitable
 
 import (
-	"e.coding.net/fzkun/zlkj/netstack/gate"
-	"e.coding.net/fzkun/zlkj/netstack/tcpip"
-	"e.coding.net/fzkun/zlkj/netstack/tcpip/buffer"
-	"e.coding.net/fzkun/zlkj/netstack/tcpip/stack"
+	"github.com/fzkun/netstack/gate"
+	"github.com/fzkun/netstack/tcpip"
+	"github.com/fzkun/netstack/tcpip/buffer"
+	"github.com/fzkun/netstack/tcpip/stack"
 )
 
 // Endpoint is a waitable link-layer endpoint.
