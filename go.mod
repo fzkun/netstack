@@ -1,4 +1,4 @@
-module github.com/polevpn/netstack
+module github.com/fzkun/netstack
 
 go 1.20
 
